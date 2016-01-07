@@ -32,6 +32,7 @@ exports.setup = function( parsoidConfig ) {
 	parsoidConfig.setInterwiki( 'torejorgwiki', 'https://torejorg.miraheze.org/w/api.php' );
 	parsoidConfig.setInterwiki( 'unikumwiki', 'https://unikum.miraheze.org/w/api.php' );
 	parsoidConfig.setInterwiki( 'walthamstowlabourwiki', 'https://walthamstowlabour.miraheze.org/w/api.php' );
+	parsoidConfig.setInterwiki( 'izanagionlinewiki', 'https://izangi.miraheze.org/w/api.php' );
 
 	// Don't load WMF wikis
 	parsoidConfig.loadWMF = false;
